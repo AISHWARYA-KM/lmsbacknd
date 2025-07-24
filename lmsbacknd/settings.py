@@ -41,13 +41,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'lms',
     'rest_framework',
     'corsheaders',
     'rest_framework_simplejwt',
     'django_filters',
     'cloudinary',
     'cloudinary_storage',
+    'lms.apps.LmsConfig',  # Ensure your app is registered here
 
 
 
